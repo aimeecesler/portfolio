@@ -4,3 +4,8 @@
 main {
     background-color: rgb(24, 24, 24);
 }
+
+.home-header {
+    font-family: 'Kristi', cursive;
+    font-size: 5em;
+}
