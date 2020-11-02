@@ -3,11 +3,13 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Portfolio from "./pages/Portfolio/Portfolio";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <Router>
       <div>
+        <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
