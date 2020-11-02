@@ -8,7 +8,7 @@ const Home = () => {
     <Container>
       <Row>
         <div className="col-sm-12">
-        <h1 className="text-white home-header">Welcome. My name is Aimee Esler.</h1>
+        <h1 className="text-white home-header text-center">Welcome.</h1>
         </div>
       </Row>
       <Row>

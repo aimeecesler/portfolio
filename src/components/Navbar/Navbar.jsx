@@ -1,13 +1,14 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import "./Navbar.css"
+import logo from "../../images/ACElogosimple.png";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark">
         <Link className="navbar-brand" to="/">
-          Aimee Esler
+          <img src={logo} alt="logo" className="nav-logo" />
         </Link>
         <button
           className="navbar-toggler"
