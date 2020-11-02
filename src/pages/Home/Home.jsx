@@ -1,13 +1,13 @@
 import Container from "../../components/Container/Container";
+import HomeImages from "../../components/HomeImages/HomeImages";
 import Row from "../../components/Row/Row";
+import "./Home.css";
 
 const Home = () => {
   return (
     <Container>
       <Row>
-        <div className="col-sm-12">
-          <h1>THIS IS MY HOME PAGE</h1>
-        </div>
+        <HomeImages />
       </Row>
     </Container>
   );
