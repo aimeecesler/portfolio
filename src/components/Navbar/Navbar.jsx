@@ -1,10 +1,11 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import "./Navbar.css"
 
 const Navbar = () => {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-dark">
         <Link className="navbar-brand" to="/">
           Aimee Esler
         </Link>
