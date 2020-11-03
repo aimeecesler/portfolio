@@ -4,7 +4,6 @@
 .nav-logo {
     max-height: 7rem;
 }
-  .navbar-nav .nav-link {
-    padding-top: 3rem;
+  .navbar-nav {
     padding-bottom: 3rem;
   }
