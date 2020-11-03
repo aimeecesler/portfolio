@@ -10,6 +10,7 @@ const Home = () => {
       <Row>
         <div className="col-sm-12">
         <h1 className="text-white home-header text-center">Welcome.</h1>
+        <p className="text-white text-center home-intro">Enter a brief one line intro statement here.</p>
         </div>
       </Row>
       <Row>
