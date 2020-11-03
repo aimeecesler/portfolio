@@ -13,13 +13,13 @@ const Footer = () => {
           Copyright&copy; 2020 Aimee Corbin Esler
         </span>
         <span className="float-right">
-            <Link to={() => {window.open("https://www.linkedin.com/in/aimee-esler-3bb31288/",'_blank')}}>
+            <Link to="https://www.linkedin.com/in/aimee-esler-3bb31288/">
             <img className="icon pr-2" src={linkedin} alt="LinkedIn Icon" />
             </Link>
-            <Link to={() => {window.open("https://github.com/aimeecesler",'_blank')}}>
+            <Link to="https://github.com/aimeecesler">
             <img className="icon pr-2" src={github} alt="GitHub Icon" />
             </Link>
-            <Link to={() => {window.open("https://drive.google.com/file/d/1YcDGV6925kBhLW2yzusRFPoqCfCV38Iu/view?usp=sharing",'_blank')}}>
+            <Link to="https://drive.google.com/file/d/1YcDGV6925kBhLW2yzusRFPoqCfCV38Iu/view?usp=sharing">
             <img className="icon pr-2" src={resume} alt="Resume Icon" />
             </Link>
         </span>
