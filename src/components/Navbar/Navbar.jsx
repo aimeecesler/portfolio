@@ -1,9 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../images/ACElogosimple.png";
-import linkedin from "../../images/icons/linkedin.png";
-import github from "../../images/icons/github.png";
-import resume from "../../images/icons/resume.png";
+import SocialLinks from "../SocialLinks/SocialLinks";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -14,7 +12,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="nav-logo" />
         </Link>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler mb-5"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavAltMarkup"
@@ -39,21 +37,7 @@ const Navbar = () => {
               Contact
             </NavLink>
             <span>
-              <a
-                href="https://www.linkedin.com/in/aimee-esler-3bb31288/"
-                target="blank"
-              >
-                <img className="icon pr-2" src={linkedin} alt="LinkedIn Icon" />
-              </a>
-              <a href="https://github.com/aimeecesler" target="blank">
-                <img className="icon pr-2" src={github} alt="GitHub Icon" />
-              </a>
-              <a
-                href="https://drive.google.com/file/d/1YcDGV6925kBhLW2yzusRFPoqCfCV38Iu/view?usp=sharing"
-                target="blank"
-              >
-                <img className="icon pr-2" src={resume} alt="Resume Icon" />
-              </a>
+              <SocialLinks />
             </span>
           </div>
         </div>

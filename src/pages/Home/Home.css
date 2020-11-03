@@ -1,6 +1,19 @@
-.bw-kudu {
-    max-height: 500px;
+.kudu {
+    max-height: 750px;
 }
+
+@media only screen and (max-width: 768px) {
+    .kudu {
+        max-height: 500px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .kudu {
+        max-height: 300px;
+    }
+}
+
 main {
     background-color: rgb(24, 24, 24);
 }

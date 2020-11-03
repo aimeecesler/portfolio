@@ -10,7 +10,7 @@ const HomeImages = () => {
     <div className="col-sm-12 text-center mt-5">
       <Link to="/about">
         <img
-          className="bw-kudu"
+          className="kudu"
           src={kuduLeft}
           alt="kudu"
           onMouseOver={(e) => (e.currentTarget.src = kuduLeftColor)}
@@ -19,7 +19,7 @@ const HomeImages = () => {
       </Link>
       <Link to="/portfolio">
         <img
-          className="bw-kudu"
+          className="kudu"
           src={kuduRight}
           alt="kudu"
           onMouseOver={(e) => (e.currentTarget.src = kuduRightColor)}
