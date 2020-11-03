@@ -14,6 +14,22 @@
   }
 }
 
+.vine {
+  max-width: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+  .vine {
+    max-width: 175px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .vine {
+    max-width: 100px;
+  }
+}
+
 main {
   background-color: rgb(24, 24, 24);
 }
@@ -24,8 +40,8 @@ main {
 }
 
 .home-intro {
-    font-family: 'Poiret One', cursive;
-    font-size: 1.5rem;
+  font-family: "Poiret One", cursive;
+  font-size: 1.5rem;
 }
 
 .tree {

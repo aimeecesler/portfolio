@@ -2,5 +2,17 @@
     background-color: rgb(24, 24, 24);
 }
 .nav-logo {
-    max-height: 7rem;
+    max-height: 6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-logo {
+    max-height: 4rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .nav-logo {
+    max-height: 3rem;
+  }
 }
