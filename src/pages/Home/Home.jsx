@@ -1,5 +1,6 @@
 import Container from "../../components/Container/Container";
 import HomeImages from "../../components/HomeImages/HomeImages";
+import HomeVines from "../../components/HomeVines/HomeVines";
 import Row from "../../components/Row/Row";
 import "./Home.css";
 
@@ -10,6 +11,9 @@ const Home = () => {
         <div className="col-sm-12">
         <h1 className="text-white home-header text-center">Welcome.</h1>
         </div>
+      </Row>
+      <Row>
+        <HomeVines />
       </Row>
       <Row>
         <HomeImages />
