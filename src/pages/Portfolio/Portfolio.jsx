@@ -4,7 +4,7 @@ import "./Portfolio.css";
 
 const Portfolio = () => {
   return (
-    <Container className="flex-fill portfolio-background">
+    <Container className="flex-fill portfolio-background" containerType="container-fluid mb-5">
       <Row>
         <div className="col-sm-12">
           <h1>THIS IS MY PORTFOLIO PAGE</h1>

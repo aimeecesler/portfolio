@@ -4,10 +4,10 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <Container className="flex-fill contact-background">
+    <Container className="flex-fill contact-background" containerType="container mb-5">
       <Row>
-        <div className="col-sm-6 text-center">
-          <div className="card mt-5 ml-5">
+        <div className="col-sm-8 text-center">
+          <div className="card mt-5">
             <div className="card-body">
               <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLSdDjQpmAFFYlCGbM_SgHbXT3wQ8mZTG8kF0qMnwWDVxwXszRQ/viewform?embedded=true"
