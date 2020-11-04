@@ -56,7 +56,7 @@ const Portfolio = () => {
     {
       src: weather,
       alt: "weather screenshot",
-      name: "weather dashboard",
+      name: "Weather Dashboard",
       github: "https://github.com/aimeecesler/weather-dashboard",
       deployed: "https://aimeecesler.github.io/weather-dashboard/",
       class: "carousel-item",
@@ -70,24 +70,24 @@ const Portfolio = () => {
     >
       <Row>
         <div className="col-sm-3"></div>
-        <div className="col-sm-6">
+        <div className="col-sm-6 px-5">
 
           <div
-            id="carouselExampleCaptions"
+            id="portfolioCarousel"
             className="carousel slide"
             data-ride="carousel"
           >
             <ol className="carousel-indicators">
               <li
-                data-target="#carouselExampleCaptions"
+                data-target="#portfolioCarousel"
                 data-slide-to="0"
                 className="active"
               ></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+              <li data-target="#portfolioCarousel" data-slide-to="1"></li>
+              <li data-target="#portfolioCarousel" data-slide-to="2"></li>
+              <li data-target="#portfolioCarousel" data-slide-to="3"></li>
+              <li data-target="#portfolioCarousel" data-slide-to="4"></li>
+              <li data-target="#portfolioCarousel" data-slide-to="5"></li>
             </ol>
             <div className="carousel-inner">
               {state.map((project, index) => (
@@ -96,7 +96,7 @@ const Portfolio = () => {
             </div>
             <a
               className="carousel-control-prev"
-              href="#carouselExampleCaptions"
+              href="#portfolioCarousel"
               role="button"
               data-slide="prev"
             >
@@ -108,7 +108,7 @@ const Portfolio = () => {
             </a>
             <a
               className="carousel-control-next"
-              href="#carouselExampleCaptions"
+              href="#portfolioCarousel"
               role="button"
               data-slide="next"
             >

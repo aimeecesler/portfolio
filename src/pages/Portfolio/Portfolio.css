@@ -1,8 +1,10 @@
 .portfolio-background {
-    background-image: url("../../images/portfolio.jpg");
-    background-repeat: repeat;
+  background-image: url("../../images/portfolio.jpg");
+  background-repeat: repeat;
 }
 
-/* .carousel-image {
-    max-width: 300px;
-} */
+.carousel {
+  border: #79a3a2;
+  border-width: 20px;
+  border-style: solid;
+}
