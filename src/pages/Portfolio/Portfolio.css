@@ -1,10 +1,29 @@
 .portfolio-background {
-  background-image: url("../../images/portfolio.jpg");
-  background-repeat: repeat;
+  /* background-image: url("../../images/portfolio.jpg");
+  background-repeat: repeat; */
+  background-color: rgb(24, 24, 24);
 }
 
 .carousel {
-  border: #79a3a2;
+  border: gray;
   border-width: 20px;
   border-style: solid;
+}
+
+.portfolio-header {
+  font-family: "Kristi", cursive;
+  font-size: 7rem;
+}
+
+.portfolio-text {
+  font-family: "Poiret One", cursive;
+  font-size: 1.5rem;
+}
+
+.portfolio-img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  margin-bottom: 2em;
+  height: auto;
 }

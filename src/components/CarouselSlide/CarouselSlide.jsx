@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const CarouselSlide = (props) => {
   return (
       <div className={props.class}>
-        <Link to="">
+        <Link to={props.url}>
         <img
           src={props.src}
           className="carousel-image d-block w-100"
