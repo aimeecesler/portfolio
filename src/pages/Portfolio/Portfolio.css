@@ -1,3 +1,8 @@
 .portfolio-background {
-    background-color: green;
+    background-image: url("../../images/portfolio.jpg");
+    background-repeat: repeat;
 }
+
+/* .carousel-image {
+    max-width: 300px;
+} */
