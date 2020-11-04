@@ -70,7 +70,7 @@ const Portfolio = () => {
     >
       <Row>
         <div className="col-sm-3"></div>
-        <div className="col-sm-6 px-5">
+        <div className="col-sm-6">
 
           <div
             id="portfolioCarousel"

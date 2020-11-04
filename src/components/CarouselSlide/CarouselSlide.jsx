@@ -1,7 +1,6 @@
 import React from "react";
 
 const CarouselSlide = (props) => {
-    console.log(props);
   return (
       <div className={props.class}>
         <img
