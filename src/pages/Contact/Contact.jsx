@@ -4,8 +4,12 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <Container className="flex-fill contact-background" containerType="container mb-5">
+    <Container
+      className="flex-fill contact-background"
+      containerType="container mb-5"
+    >
       <Row>
+        <div className="col-sm-2"></div>
         <div className="col-sm-8 text-center">
           <div className="card mt-5">
             <div className="card-body">
