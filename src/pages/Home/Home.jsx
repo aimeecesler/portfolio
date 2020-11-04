@@ -6,7 +6,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <Container>
+    <Container className="flex-fill home-background">
       <Row>
         <div className="col-sm-12">
         <h1 className="text-white home-header text-center">Welcome.</h1>
