@@ -1,3 +1,11 @@
 .about-background {
-    background-color: hotpink;
+  background-color: rgb(24, 24, 24);
+}
+
+.jumbotron {
+  background-image: url("../../images/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
