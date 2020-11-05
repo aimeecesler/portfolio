@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
@@ -8,7 +8,7 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className="d-flex flex-column min-vh-100" >
         <Navbar />
       <Switch>
@@ -19,7 +19,7 @@ function App() {
       </Switch>
       <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 

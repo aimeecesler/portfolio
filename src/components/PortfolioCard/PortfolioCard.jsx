@@ -1,12 +1,11 @@
 import React from "react";
+import "./PortfolioCard.css"
 
 const PortfolioCard = (props) => {
   return (
-    <div className="col-sm-4">
+    <div className="col-sm-4 mb-4">
       <div
-        className="card text-white bg-secondary mb-4 text-center"
-        onMouseOver={(e) => (e.currentTarget.className = "card mb-4 text-center")}
-        onMouseOut={(e) => (e.currentTarget.className = "card text-white bg-secondary mb-4 text-center")}
+        className="card text-center portfolio-card"
       >
         <img
           src={props.bw}
@@ -17,6 +16,7 @@ const PortfolioCard = (props) => {
         />
         <div className="card-body">
           <h5 className="card-title">{props.name}</h5>
+          <p>{props.body}</p>
           <a href={props.github} className="btn btn-dark mr-1">
             GitHub Repository
           </a>
