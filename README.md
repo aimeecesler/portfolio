@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+# # REACT EMPLOYEE DIRECTORY
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+This repository contains my portfolio site, including About Me, Contact and Portfolio pages. Repository is a React application and utilizes HTML, CSS, Javascript and jQuery.
 
-In the project directory, you can run:
+![Main](./src/images/readme/main.png)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Installation](#installation)
+- [Usage](#Usage)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Credits](#credits)
+- [Resources](#resources)
+- [Contact](#contact)
+- [Links](#Links)
+- [License](#license)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Follow the GitHub Repository Link in the [links](#Links) section below.
+1. Clone the repository using an SSH key.
+1. Open GitBash and use "git clone" to clone the repository.
+1. Run npm install to install associated modules.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Edit using VSCode after [installation](#installation). This is a React.js application, all files and components are included. This application is deployed to GitHub Pages, see [links](#Links) section below.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Acceptance Criteria
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Updated Portfolio
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Your updated site should still have all of the content it previously had:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Your name :heavy_check_mark:
 
-## Learn More
+- Links to your GitHub profile & LinkedIn page as well as your email address and phone number :heavy_check_mark:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- A link to a PDF of your resume with updated projects :heavy_check_mark:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- A list of projects. For each project, make sure you have the following:
 
-### Code Splitting
+  - Project title :heavy_check_mark:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  - Link to the deployed version :heavy_check_mark:
 
-### Analyzing the Bundle Size
+  - Link to the GitHub repository :heavy_check_mark:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  - GIF or screenshot of the deployed application :heavy_check_mark:
 
-### Making a Progressive Web App
+#### Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+As with the previous portfolio homework, "good" design is subjective. Your site should look
+"polished." Here are a few guidelines on what that means:
 
-### Advanced Configuration
+- Mobile-first design :heavy_check_mark:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Choose a color palette for your site so it doesn't just look like
+  the default bootstrap theme or an unstyled HTML site. :heavy_check_mark:
 
-### Deployment
+- Make sure the font size is large enough to read, and that the colors don't cause eye strain. :heavy_check_mark:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- If you want to go above and beyond, try using animations and react component libraries. Note
+  that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge. :heavy_check_mark:
 
-### `npm run build` fails to minify
+#### React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Additionally, this new portfolio should be created using React. :heavy_check_mark:
+
+At a minimum, your portfolio should include the following:
+
+- A `Header` component that appears on multiple pages :heavy_check_mark:
+
+- A single `Project` component that will be used multiple times on a single page :heavy_check_mark:
+
+- Navigation with React Router, dynamic rendering, or another third part router :heavy_check_mark:
+
+- A `Footer` component that appears on multiple pages :heavy_check_mark:
+
+#### Updated LinkedIn Profile
+
+Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.:heavy_check_mark:
+
+---
+
+## Credits
+
+As always, a huge thanks to our instructional staff for all their hard work!
+
+## Resources
+
+- [w3schools](https://www.w3schools.com)
+- [Node.js](https://nodejs.org/en/)
+- [React.js](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+
+---
+
+## Contact
+
+Find me on LinkedIn Here:
+[Aimee Esler](https://www.linkedin.com/in/aimee-esler-3bb31288/)
+
+---
+
+## Links
+
+[Repository Link](https://github.com/aimeecesler/portfolio)
+
+[Deployed Application](https://www.aimeecesler.com)
+
+---
+
+## License
+
+Copyright &copy; 2020 Aimee Corbin Esler
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
