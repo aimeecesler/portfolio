@@ -3,9 +3,32 @@
 }
 
 .jumbotron {
-  background-image: url("../../images/hero.jpg");
+  background-image: url("../../images/banner.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 250px;
+}
+
+.about-header {
+    font-family: "Kristi", cursive;
+    font-size: 5rem;
+}
+
+.about-image {
+    max-height: 500px;
+}
+
+.skills-list {
+    list-style: none;
+    padding-inline-start: 0px !important;
+}
+
+.skills-header {
+    font-family: "Poiret One", cursive;
+    font-size: 2.5rem;
+}
+
+.card {
+    opacity: .75;
 }
