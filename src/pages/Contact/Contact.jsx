@@ -11,7 +11,7 @@ const Contact = () => {
       <Row>
         <div className="col-sm-2"></div>
         <div className="col-sm-8 text-center">
-          <div className="card mt-5">
+          <div className="card contact-card mt-5">
             <div className="card-body">
               <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLSdDjQpmAFFYlCGbM_SgHbXT3wQ8mZTG8kF0qMnwWDVxwXszRQ/viewform?embedded=true"

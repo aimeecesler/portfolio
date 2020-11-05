@@ -24,7 +24,7 @@ const About = () => {
           <img className="about-image" src={aimee} alt="Aimee" />
         </div>
         <div className="col-sm-9">
-          <div className="card">
+          <div className="card about-card">
             <div className="card-body text-center">
               <p className="mt-3">
                 My name is Aimee Esler and I am currently a student in the
