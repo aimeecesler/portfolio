@@ -10,7 +10,7 @@ const PortfolioCard = (props) => {
       >
         <img
           src={props.bw}
-          class="card-img-top"
+          className="card-img-top"
           alt="props.alt"
           onMouseOver={(e) => (e.currentTarget.src = props.color)}
           onMouseOut={(e) => (e.currentTarget.src = props.bw)}

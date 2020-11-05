@@ -27,6 +27,9 @@ const Navbar = () => {
           id="navbarNavAltMarkup"
         >
           <div className="navbar-nav ml-auto">
+            <NavLink className="nav-link" to="/">
+              Home
+            </NavLink>
             <NavLink className="nav-link" to="/about">
               About Me
             </NavLink>

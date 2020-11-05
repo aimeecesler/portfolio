@@ -3,13 +3,13 @@ import PortfolioCard from "../../components/PortfolioCard/PortfolioCard";
 import Row from "../../components/Row/Row";
 import cultourist from "../../images/portfolio/cultourist.PNG";
 import dinnerDecider from "../../images/portfolio/dinner.PNG";
-import password from "../../images/portfolio/password.PNG";
+import employee from "../../images/portfolio/employee.PNG";
 import quiz from "../../images/portfolio/quiz.PNG";
 import scheduler from "../../images/portfolio/scheduler.PNG";
 import weather from "../../images/portfolio/weather.PNG";
 import cultouristBW from "../../images/portfolio/cultouristBW.png";
 import dinnerDeciderBW from "../../images/portfolio/dinnerBW.png";
-import passwordBW from "../../images/portfolio/passwordBW.png";
+import employeeBW from "../../images/portfolio/employeeBW.png";
 import quizBW from "../../images/portfolio/quizBW.png";
 import schedulerBW from "../../images/portfolio/schedulerBW.png";
 import weatherBW from "../../images/portfolio/weatherBW.png";
@@ -35,12 +35,12 @@ const Portfolio = () => {
       deployed: "https://aimeecesler.github.io/dinner-decider/",
     },
     {
-      color: password,
-      bw: passwordBW,
-      alt: "password screenshot",
-      name: "Password Generator",
-      github: "https://github.com/aimeecesler/password-generator",
-      deployed: "https://aimeecesler.github.io/password-generator/",
+      color: employee,
+      bw: employeeBW,
+      alt: "employee screenshot",
+      name: "Employee Directory",
+      github: "https://github.com/aimeecesler/react-employee-directory",
+      deployed: "https://aimeecesler.github.io/react-employee-directory/",
     },
     {
       color: quiz,
@@ -49,7 +49,6 @@ const Portfolio = () => {
       name: "Super Fun Code Quiz",
       github: "https://github.com/aimeecesler/super-fun-code-quiz",
       deployed: "https://aimeecesler.github.io/super-fun-code-quiz/",
-      
     },
     {
       color: scheduler,
@@ -83,8 +82,8 @@ const Portfolio = () => {
         </div>
       </Row>
       <Row>
-        {projects.map((project) => (
-          <PortfolioCard {...project} />
+        {projects.map((project, index) => (
+          <PortfolioCard {...project} key={index} />
         ))}
       </Row>
     </Container>
