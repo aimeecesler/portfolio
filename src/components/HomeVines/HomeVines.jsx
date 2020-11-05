@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import vineRight from "../../images/vinerightwhite.png";
-import vineLeft from "../../images/vineleftwhite.png";
-import vineRightColor from "../../images/vinerightcolor.png";
-import vineLeftColor from "../../images/vineleftcolor.png";
+import vineRight from "../../images/home/vinerightwhite.png";
+import vineLeft from "../../images/home/vineleftwhite.png";
+import vineRightColor from "../../images/home/vinerightcolor.png";
+import vineLeftColor from "../../images/home/vineleftcolor.png";
 
 
 const HomeVines = () => {

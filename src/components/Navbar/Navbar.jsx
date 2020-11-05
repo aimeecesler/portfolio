@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../../images/ACElogosimple.png";
+import logo from "../../images/logo/ACElogosimple.png";
 import SocialLinks from "../SocialLinks/SocialLinks";
 import "./Navbar.css";
 

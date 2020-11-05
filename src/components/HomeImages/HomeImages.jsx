@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import kuduLeft from "../../images/kuduleft.png";
-import kuduRight from "../../images/kuduright.png";
-import kuduLeftColor from "../../images/colorkuduleft.png";
-import kuduRightColor from "../../images/colorkuduright.png";
+import kuduLeft from "../../images/home/kuduleft.png";
+import kuduRight from "../../images/home/kuduright.png";
+import kuduLeftColor from "../../images/home/colorkuduleft.png";
+import kuduRightColor from "../../images/home/colorkuduright.png";
 
 const HomeImages = () => {
   return (
