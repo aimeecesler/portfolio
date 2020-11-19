@@ -4,20 +4,29 @@ import Row from "../../components/Row/Row";
 import cultourist from "../../images/portfolio/cultourist.PNG";
 import dinnerDecider from "../../images/portfolio/dinner.PNG";
 import employee from "../../images/portfolio/employee.PNG";
-import quiz from "../../images/portfolio/quiz.PNG";
-import scheduler from "../../images/portfolio/scheduler.PNG";
 import weather from "../../images/portfolio/weather.PNG";
 import cultouristBW from "../../images/portfolio/cultouristBW.png";
 import dinnerDeciderBW from "../../images/portfolio/dinnerBW.png";
 import employeeBW from "../../images/portfolio/employeeBW.png";
-import quizBW from "../../images/portfolio/quizBW.png";
-import schedulerBW from "../../images/portfolio/schedulerBW.png";
 import weatherBW from "../../images/portfolio/weatherBW.png";
+import gameKnight from "../../images/portfolio/gameknight.PNG";
+import gameKnightBW from "../../images/portfolio/gameknightBW.png";
+import bookBadger from "../../images/portfolio/bookbadger.PNG";
+import bookBadgerBW from "../../images/portfolio/bookbadgerBW.png";
 
 import "./Portfolio.css";
 
 const Portfolio = () => {
   const projects = [
+    {
+      color: gameKnight,
+      bw: gameKnightBW,
+      alt: "game knight screenshot",
+      name: "Game Knight",
+      github: "https://github.com/aimeecesler/gameknight",
+      deployed: "https://gameknight-app.herokuapp.com/",
+      body: "An online game scheduling app that brings people together to play various games (board games, RPGs, card games, video games, puzzles, etc.). Stuck at home and bored? Don’t make it a lame night, make it a Game Knight!",
+    },
     {
       color: cultourist,
       bw: cultouristBW,
@@ -39,32 +48,23 @@ const Portfolio = () => {
         "Dinner Decider is finally the answer to the age old question, “What do you want for dinner?” Singles, couples and families everywhere rejoice because they finally have something else to make the decision for them!",
     },
     {
+      color: bookBadger,
+      bw: bookBadgerBW,
+      alt: "book badger screenshot",
+      name: "Book Badger",
+      github: "https://github.com/aimeecesler/react-book-app",
+      deployed: "https://ace-google-books.herokuapp.com/",
+      body: "Are you a bookworm who has trouble squirreling away your favorite books? Look no further than book badger! Search through the Google Books library and save your favorites for future reading or just a reminder of your love for them!",
+    },
+    {
       color: employee,
       bw: employeeBW,
       alt: "employee screenshot",
       name: "Employee Directory",
       github: "https://github.com/aimeecesler/react-employee-directory",
       deployed: "https://aimeecesler.github.io/react-employee-directory/",
-      body: "Do you need a way to view all of your employee data quickly and easily? Need to find all the October birthdays? Can't remember Steve's last name? Not a problem! This employee directory is built for easy and accurate results.",
-    },
-    {
-      color: quiz,
-      bw: quizBW,
-      alt: "quiz screenshot",
-      name: "Super Fun Code Quiz",
-      github: "https://github.com/aimeecesler/super-fun-code-quiz",
-      deployed: "https://aimeecesler.github.io/super-fun-code-quiz/",
       body:
-        "Are you a coding genius or totally lost? Test it out with this super fun coding quiz, but be careful a wrong answer will lose seconds on the clock! Save your high scores and try to beat the clock!",
-    },
-    {
-      color: scheduler,
-      bw: schedulerBW,
-      alt: "scheduler screenshot",
-      name: "Workday Scheduler",
-      github: "https://github.com/aimeecesler/work-day-scheduler",
-      deployed: "https://aimeecesler.github.io/work-day-scheduler/",
-      body: "Do you struggle to keep track of your daily tasks at work? This is the tool for you! Track all of your tasks and appointments throughout the day and get color coded reminders of the time throughout the day.",
+        "Do you need a way to view all of your employee data quickly and easily? Need to find all the October birthdays? Can't remember Steve's last name? Not a problem! This employee directory is built for easy and accurate results.",
     },
     {
       color: weather,
