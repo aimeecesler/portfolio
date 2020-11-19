@@ -36,10 +36,7 @@ const About = () => {
                 self-motivated professional, strong planner and problem solver
                 who readily adapts to change and challenges. Proficient
                 multi-tasker who is able to meet tight deadlines in an organized
-                and efficient manner. I recently applied my love for UX and
-                clean design in a project to design a virtual travel community
-                where users can exchange culture-based travel tips to improve
-                their visit. Innovation has always been a part of my work
+                and efficient manner. Innovation has always been a part of my work
                 mentality and I am always looking for ways to improve upon
                 projects and processes to make them more efficient and user
                 friendly.
