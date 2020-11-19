@@ -32,3 +32,12 @@
 .about-card {
     opacity: .75;
 }
+
+.resume-link {
+    font-family: "Poiret One", cursive;
+    font-size: 1.5rem;
+    color: black;
+}
+.resume-link:hover {
+    color: turquoise;
+}

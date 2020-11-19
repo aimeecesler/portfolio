@@ -27,21 +27,22 @@ const About = () => {
           <div className="card about-card">
             <div className="card-body text-center">
               <p className="mt-3">
-                My name is Aimee Esler and I am currently a student in the
-                Georgia Tech Coding Boot Camp program. I was born and raised in
-                Bonita Springs, a tiny town in southwest Florida. I went to the
-                University of Florida (Go Gators!) and graduated with Bachelors
-                degree in Wildlife Ecology and Conservation. After graduation I
-                also attended the Santa Fe College Teaching Zoo and went on to
-                work in my dream job as a lead mammals Zookeeper at Naples Zoo
-                in Naples, FL. Unfortunately, as we all learn at some point in
-                life, even our "dream jobs" come with their issues and I made
-                the difficult decision six years ago to change careers and move
-                to Atlanta, GA. For the last six years I have been working as a
-                data analyst/administrative assistant and I felt like I had
-                reached my maximum potential in this field. I wanted to start a
-                new challenge in a field I knew I could learn and grow in for
-                the rest of my career... enter web development!
+                Full stack web developer with diversified work experience that
+                allows for a wide knowledge of various industries and their
+                consumers. Recently earned a certificate in full stack
+                web development from the Georgia Institute of Technology with strong
+                skills in Javascript and responsive web design and a passion for
+                creating a beautiful and enjoyable UX. Independent and
+                self-motivated professional, strong planner and problem solver
+                who readily adapts to change and challenges. Proficient
+                multi-tasker who is able to meet tight deadlines in an organized
+                and efficient manner. I recently applied my love for UX and
+                clean design in a project to design a virtual travel community
+                where users can exchange culture-based travel tips to improve
+                their visit. Innovation has always been a part of my work
+                mentality and I am always looking for ways to improve upon
+                projects and processes to make them more efficient and user
+                friendly.
               </p>
               <h2 className="skills-header">Languages and Skills</h2>
               <Row>
@@ -50,9 +51,9 @@ const About = () => {
                   <ul className="skills-list">
                     <li>HTML5</li>
                     <li>CSS</li>
-                    <li>Bootstrap CSS Framework</li>
-                    <li>Bulma CSS Framework</li>
-                    <li>Materialize CSS Framework</li>
+                    <li>Bootstrap</li>
+                    <li>Bulma</li>
+                    <li>Materialize</li>
                     <li>JavaScript</li>
                     <li>jQuery</li>
                     <li>Node.js</li>
@@ -69,6 +70,18 @@ const About = () => {
                     <li>Git</li>
                     <li>React</li>
                   </ul>
+                </div>
+              </Row>
+              <Row>
+                <div className="col-sm-12">
+                  <a
+                    href="https://drive.google.com/file/d/1M6rpd9JO_bZ7uk1hIPFxEqbHpHD5XtMq/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="resume-link"
+                  >
+                    View My Resume
+                  </a>
                 </div>
               </Row>
             </div>
