@@ -19,7 +19,7 @@ const HomeVines = () => {
         />
       </Link>
       <a
-        href="https://drive.google.com/file/d/1YcDGV6925kBhLW2yzusRFPoqCfCV38Iu/view?usp=sharing"
+        href="https://drive.google.com/file/d/1M6rpd9JO_bZ7uk1hIPFxEqbHpHD5XtMq/view?usp=sharing"
         target="blank"
       >
         <img
