@@ -17,10 +17,10 @@ const PortfolioCard = (props) => {
           <p>{props.body}</p>
         </div>
         <div className="card-footer">
-          <a href={props.github} className="btn btn-dark m-1">
+          <a href={props.github} target="_blank" rel="noreferrer" className="btn btn-dark m-1">
             GitHub Repository
           </a>
-          <a href={props.deployed} className="btn btn-dark m-1">
+          <a href={props.deployed} target="_blank" rel="noreferrer" className="btn btn-dark m-1">
             Deployed Application
           </a>
         </div>

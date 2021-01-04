@@ -4,15 +4,15 @@ import Row from "../../components/Row/Row";
 import cultourist from "../../images/portfolio/cultourist.PNG";
 import dinnerDecider from "../../images/portfolio/dinner.PNG";
 import employee from "../../images/portfolio/employee.PNG";
-import weather from "../../images/portfolio/weather.PNG";
 import cultouristBW from "../../images/portfolio/cultouristBW.png";
 import dinnerDeciderBW from "../../images/portfolio/dinnerBW.png";
 import employeeBW from "../../images/portfolio/employeeBW.png";
-import weatherBW from "../../images/portfolio/weatherBW.png";
 import gameKnight from "../../images/portfolio/gameknight.PNG";
 import gameKnightBW from "../../images/portfolio/gameknightBW.png";
 import bookBadger from "../../images/portfolio/bookbadger.PNG";
 import bookBadgerBW from "../../images/portfolio/bookbadgerBW.png";
+import screaltor from "../../images/portfolio/screaltor.PNG";
+import screaltorBW from "../../images/portfolio/screaltorBW.png";
 
 import "./Portfolio.css";
 
@@ -36,6 +36,15 @@ const Portfolio = () => {
       deployed: "https://cultouristapp.herokuapp.com/",
       body:
         "CulTourist is the perfect resource to know local customs, slang and scams while abroad. Get trusted advice from fellow travelers to blend in with the locals at your next destination!",
+    },
+    {
+      color: screaltor,
+      bw: screaltorBW,
+      alt: "realtor screenshot",
+      name: "Steve Corbin - Realtor\u00AE",
+      github: "https://github.com/aimeecesler/steve-corbin-realtor",
+      deployed: "http://www.stevecorbinrealtor.com/",
+      body: "Designed for a real estate agent with both old and new customers in mind! This site not only provides a beautiful experience for clients to search properties and learn more about their agent but it also allows the agent to add, edit and delete properties they have available.",
     },
     {
       color: dinnerDecider,
@@ -65,16 +74,6 @@ const Portfolio = () => {
       deployed: "https://aimeecesler.github.io/react-employee-directory/",
       body:
         "Do you need a way to view all of your employee data quickly and easily? Need to find all the October birthdays? Can't remember Steve's last name? Not a problem! This employee directory is built for easy and accurate results.",
-    },
-    {
-      color: weather,
-      bw: weatherBW,
-      alt: "weather screenshot",
-      name: "Weather Dashboard",
-      github: "https://github.com/aimeecesler/weather-dashboard",
-      deployed: "https://aimeecesler.github.io/weather-dashboard/",
-      body:
-        "Have a trip planned or just need to check out the weather near you? This application is just what you need with current weather conditions and a five day forecast for all your new searches or saved cities.",
     },
   ];
 
