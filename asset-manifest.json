@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.74e7e96c.chunk.css",
-    "main.js": "/static/js/main.392729a2.chunk.js",
-    "main.js.map": "/static/js/main.392729a2.chunk.js.map",
+    "main.js": "/static/js/main.7e58630e.chunk.js",
+    "main.js.map": "/static/js/main.7e58630e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.04cddbe4.js",
     "runtime-main.js.map": "/static/js/runtime-main.04cddbe4.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
@@ -35,14 +35,14 @@
     "static/media/kuduleft.b4aefcc6.png": "/static/media/kuduleft.b4aefcc6.png",
     "static/media/kuduright.edd5f997.png": "/static/media/kuduright.edd5f997.png",
     "static/media/resume.53c1eeee.png": "/static/media/resume.53c1eeee.png",
-    "static/media/weather.86285d0a.PNG": "/static/media/weather.86285d0a.PNG",
-    "static/media/weatherBW.7aa85239.png": "/static/media/weatherBW.7aa85239.png"
+    "static/media/screaltor.64d3a41f.PNG": "/static/media/screaltor.64d3a41f.PNG",
+    "static/media/screaltorBW.8c1faad6.png": "/static/media/screaltorBW.8c1faad6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.04cddbe4.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.ce616e4d.chunk.js",
     "static/css/main.74e7e96c.chunk.css",
-    "static/js/main.392729a2.chunk.js"
+    "static/js/main.7e58630e.chunk.js"
   ]
 }
