@@ -53,6 +53,15 @@ const Portfolio = () => {
       deployed: "",
       body: "Prepare for a season long golf league battle made easy with the LEG app! Track your group's stats with Stableford scoring, live score tracking and realtime leaderboard standings. Find out who truly is the <b>L</b>east <b>E</b>rratic <b>G</b>olfer!",
     },
+    {
+      color: leg,
+      bw: leg,
+      alt: "golf app screenshot",
+      name: "Simply Life",
+      github: "",
+      deployed: "",
+      body: "",
+    },
   ]
 
   return (
