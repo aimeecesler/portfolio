@@ -10,7 +10,7 @@ const Home = () => {
       <Row>
         <div className="col-sm-12">
         <h1 className="text-white home-header text-center">Welcome.</h1>
-        <p className="text-white text-center home-intro">I am a full stack web developer with a passion for a beautiful and clean user experience.</p>
+        <p className="text-white text-center home-intro">I am a full stack web & iOS engineer with a passion for a beautiful and clean user experience.</p>
         </div>
       </Row>
       <Row>
