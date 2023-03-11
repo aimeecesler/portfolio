@@ -1,6 +1,7 @@
 import Container from "../../components/Container/Container";
-import PortfolioCard from "../../components/PortfolioCard/PortfolioCard";
 import Row from "../../components/Row/Row";
+import PortfolioCardiOS from "../../components/PortfolioCardiOS/PortfolioCardiOS";
+import PortfolioCardWeb from "../../components/PortfolioCardWeb/PortfolioCardWeb";
 import cultourist from "../../images/portfolio/cultourist.PNG";
 import cultouristBW from "../../images/portfolio/cultouristBW.png";
 import gameKnight from "../../images/portfolio/gameknight.PNG";
@@ -8,6 +9,8 @@ import gameKnightBW from "../../images/portfolio/gameknightBW.png";
 import screaltor from "../../images/portfolio/screaltor.PNG";
 import screaltorBW from "../../images/portfolio/screaltorBW.png";
 import leg from "../../images/portfolio/LEG.gif";
+import legStatic from "../../images/portfolio/LEG.png";
+import simplyLifeStatic from "../../images/portfolio/simply-life.png";
 
 import "./Portfolio.css";
 
@@ -45,53 +48,51 @@ const Portfolio = () => {
 
   const iOSProjects = [
     {
-      color: leg,
-      bw: leg,
+      animated: leg,
+      static: legStatic,
       alt: "golf app screenshot",
       name: "L.E.G.",
-      github: "https://github.com/aimeecesler/legs",
-      deployed: "",
-      body: "Prepare for a season long golf league battle made easy with the LEG app! Track your group's stats with Stableford scoring, live score tracking and realtime leaderboard standings. Find out who truly is the <b>L</b>east <b>E</b>rratic <b>G</b>olfer!",
+      appstore: "",
+      body: "Prepare for a season long golf league battle made easy with the LEG app! Track your group's stats with Stableford scoring, live score tracking and realtime leaderboard standings. Find out who truly is the Least Erratic Golfer!",
     },
     {
-      color: leg,
-      bw: leg,
-      alt: "golf app screenshot",
+      animated: simplyLifeStatic,
+      static: simplyLifeStatic,
+      alt: "simply life placeholder",
       name: "Simply Life",
-      github: "",
-      deployed: "",
-      body: "",
+      appstore: "",
+      body: "A photography and production company focused on the simple beauty of life.",
     },
   ]
 
   return (
     <Container
       className="flex-fill portfolio-background"
-      containerType="container-fluid my-5"
+      containerType="container-fluid my-5 text-center"
     >
       <Row>
         <div className="col-sm-12 text-center mb-5">
           <h1 className="text-white portfolio-header">PORTFOLIO</h1>
-          <h3 className="text-white portfolio-text">
+          <h2 className="text-white portfolio-text">
             iOS Projects
-          </h3>
+          </h2>
         </div>
       </Row>
       <Row>
         {iOSProjects.map((project, index) => (
-          <PortfolioCard {...project} key={index} />
+          <PortfolioCardiOS {...project} key={index} />
         ))}
       </Row>
       <Row>
       <div className="col-sm-12 text-center mb-5">
-          <h3 className="text-white portfolio-text">
+          <h2 className="text-white portfolio-text">
             Web Projects
-          </h3>
+          </h2>
         </div>
       </Row>
       <Row>
         {webProjects.map((project, index) => (
-          <PortfolioCard {...project} key={index} />
+          <PortfolioCardWeb {...project} key={index} />
         ))}
       </Row>
     </Container>

@@ -9,8 +9,7 @@ const Contact = () => {
       containerType="container mb-5"
     >
       <Row>
-        <div className="col-sm-2"></div>
-        <div className="col-sm-8 text-center">
+        <div className="col-md-8 text-center">
           <div className="card contact-card mt-5">
             <div className="card-body">
               <iframe

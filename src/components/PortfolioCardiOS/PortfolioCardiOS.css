@@ -1,0 +1,12 @@
+.portfolio-card {
+    height: 100%;
+    width: 25rem;
+}
+
+.btn-dark:hover {
+    background-color: rgb(255, 0, 149)!important;
+}
+
+.iOS-image {
+    max-height: 50rem;
+}

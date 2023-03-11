@@ -1,14 +1,14 @@
 import React from "react";
-import "./PortfolioCard.css";
+import "./PortfolioCardWeb.css";
 
-const PortfolioCard = (props) => {
+const PortfolioCardWeb = (props) => {
   return (
-    <div className="col-sm-4 mb-4">
+    <div className="col-auto mb-4">
       <div className="card text-center portfolio-card">
         <img
           src={props.bw}
           className="card-img-top"
-          alt="props.alt"
+          alt={props.alt}
           onMouseOver={(e) => (e.currentTarget.src = props.color)}
           onMouseOut={(e) => (e.currentTarget.src = props.bw)}
         />
@@ -29,4 +29,4 @@ const PortfolioCard = (props) => {
   );
 };
 
-export default PortfolioCard;
+export default PortfolioCardWeb;
